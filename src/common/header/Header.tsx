@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <div className="header-bar">
         <section>
-          <Link to={"/"}>
+          <Link to={"/noiseset"}>
             <img
               className="title"
               src="https://www.gonoise.com/cdn/shop/files/Group_4_df1f4045-5a8c-4b00-94bb-a6622f06f7da.png?v=1696847023"
