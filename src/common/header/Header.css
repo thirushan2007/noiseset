@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header-bar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
+}
+.banner{
+    background-color: rgba(31, 31, 152, 0.901);
+    color: white;
+    text-align: center;
+    padding: 10px 200px;
+    margin: 0px;
+}
+.title{
+    width: 87px;
+    height: 18.500px;
+}
+.link{
+    padding: 19px 50px;
+    color: white;
+    text-decoration: none;
+    transition: .2s ease-in;
+}
+.link:hover{
+    transform: matrix(1.1);
+    color: gray;
+    border-bottom: 3px solid white;
+}
+.search, .cart, .person{
+    margin: 0px 15px;
+    color: white;
+}

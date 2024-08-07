@@ -1,0 +1,19 @@
+.product-list-image{
+    width: 85px;
+    height: 85px;
+    display: block;
+    margin: 0px auto;
+}
+.product-list-name{
+    text-align: center;
+}
+.flex-container{
+    padding: 45px;
+}
+.small-images{
+    text-decoration: none;
+    color: black;
+}
+.product-list-name{
+    text-align: center;
+}

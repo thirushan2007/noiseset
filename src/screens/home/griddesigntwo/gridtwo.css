@@ -1,0 +1,91 @@
+.grid-container-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: .5px solid silver;
+    padding-bottom: 20px;
+    /* grid-template-areas: 
+    'zero zero one    two'
+    'zero zero three  four'  ; */
+}
+/* .grid-pop-one{
+    grid-area: zero;
+    grid-row: span 2;
+} */
+.class-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-areas: 
+    'one   two '
+    'three four '; */
+}
+/* .grid-pop-two{
+    grid-area: one;
+} */
+/* .grid-pop-three{
+    grid-area: two;
+} */
+/* .grid-pop-four{
+    grid-area: three;
+} */
+/* .grid-pop-five{
+    grid-area: four;
+} */
+.gridimage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid silver;
+    border-bottom: none;
+    border-right: none;
+}
+.grid-pop-one{
+    border-left: 1px solid silver;
+}
+.grid-pop-two, .grid-pop-three{
+    border-top: none;
+}
+.hardcoded-grid{
+    justify-content: center;
+    align-content: center;
+    border: 1px solid silver;
+    border-right: none;
+}
+.brand-hardcoded{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.instruction{
+    text-align: center;
+    padding: 50px;
+    font-size: 1.3rem;
+}
+.grid-input{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+.button-grid{
+    color: black;
+    padding: 5px 24px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.grid-button{
+    padding: 50px 35px;
+    display: flex;
+    justify-content: center;
+}
+.grid-three-image{
+    border: .5px solid silver;
+    border-right: none;
+}
+.grid-pop-two, .grid-pop-three, .grid-pop-five{
+    /* object-fit: cover; */
+}

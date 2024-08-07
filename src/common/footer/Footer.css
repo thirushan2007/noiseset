@@ -1,0 +1,31 @@
+.color-div{
+    background-color: rgba(217, 217, 217, 0.433);
+    padding: 60px;
+}
+.brand-title{
+    width: 124px;
+    height: 34px;
+    margin-left: 180px;
+}
+.social-media{
+    width: 30px;
+    height: 30px;
+}
+.flexing{
+    display: flex;
+    margin: 10px 0px;
+}
+.flexing li{
+    margin: 10px;
+}
+.first-flex{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.all-flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}

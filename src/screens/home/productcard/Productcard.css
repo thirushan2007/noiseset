@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding:  0px;
+}
+.Product-card-display{
+    text-decoration: none;
+    color: black;
+}
+.product-card{
+    width: 340px;
+    height: 480px;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: rgba(128, 128, 128, 0.084);
+}
+.product-image{
+    display: block;
+    margin: 30px auto;
+    width: 220px;
+    height: 220px;
+}
+.hot-deal{
+    margin: 0px;
+    padding: 5px 10px;
+    text-align: start;
+        background: linear-gradient( to right,blue, red, blue, red);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Detials{
+    padding: 20px;
+    height: 164px;
+    background-color: white;
+    font-size: 18px;
+}
+.product-title{
+    font-weight: bold;
+}
+.product-info{
+    text-align: start;
+}
+.price{
+    text-align: start;
+    font-weight: bold;
+}
+.price-rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* .deal-image{
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: rgba(128, 128, 128, 0.084);
+
+}
+.product-image{
+    padding: 20px;
+    display: block;
+    margin: 0px auto;
+    width: 201px;
+    height: 201px;
+}
+.hot-deal{
+    padding: 5px 10px;
+    text-align: start;
+        background: linear-gradient( to right,blue, red, blue, red);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.name-spec-price{
+    background-color: white ;
+    height: 125.5px;
+}
+.product-title{
+    text-align: start;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.product-spec{
+    text-align: start   ;
+    margin-bottom: 15px;
+    padding: 0px 5px;
+}
+.product-price{
+    text-align: start;
+    font-weight: bold;
+    padding: 0px 5px;
+} */

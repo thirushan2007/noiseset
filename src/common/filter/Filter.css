@@ -1,0 +1,8 @@
+input{
+    margin-right: 5px;
+}
+.displaying-filter-bar{
+    width: 300px;
+    /* position: fixed; */
+    /* left: 0; */
+}
