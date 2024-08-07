@@ -6,7 +6,7 @@ import ProductDetails from "../common/details/Details";
 const MainRouter = () => {
   return (
     <Routes>
-      <Route path="/" Component={HomeTab} />
+      <Route path="/noiseset" Component={HomeTab} />
       <Route path="/all-products" Component={ProductList} />
       <Route path="/product-details" Component={ProductDetails} />
     </Routes>

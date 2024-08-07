@@ -128,14 +128,14 @@ const HomeTab = () => {
   }
   return (
     <main>
-      <button
+      {/* <button
         onClick={() => {
           setUserInfo();
         }}
       >
         Click here
       </button>
-      <p>{store.CurrentUser.name}</p>
+      <p>{store.CurrentUser.name}</p> */}
       {/* <div>Cart Items -- {cartItems.length}</div>
           {cartItems.length > 0 &&
             cartItems.map((item: any) => {
